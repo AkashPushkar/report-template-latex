@@ -1,0 +1,84 @@
+\documentclass[a4paper, twoside, 11pt]{report}
+% \documentclass[12pt]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+% \usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage{geometry}
+\geometry{a4paper,top=3cm,bottom=2cm,left=1.5cm,right=1.5cm,marginparwidth=1.75cm, headheight = 35pt, left= 1cm, right=1cm}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{listings}
+
+% Header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Course Name \newline apushkar}
+\rhead{\includegraphics[scale = 0.05]{title/cmu_logo.png}}
+\cfoot{Page \thepage}
+
+% Page border
+\usepackage{pgf}
+\usepackage{pgfpages}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{1pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.9\pgfphysicalwidth,%
+    resized height=.9\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+
+
+
+\title{Project Title}
+\author{Akash Pushkar}
+% Update supervisor and other title stuff in title/title.tex
+
+% \begin{document}\layout
+\begin{document}
+
+\input{title/title.tex}
+
+\begin{abstract}
+Your abstract goes here
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Introduction}
+
+
+\newpage
+asna.sm,dckm,askfdljnaksfljbqanfliskjdbmxbfzcnkjalsd.,bvc skjadlbcn skjdla.nc kwdjlasbv kjlasd.bv nkjlsad.bv kjla,sdbv lkjsadbvnjsdaklvbakjdlvbakjlsdvbjk,.vablksajdv.bkasljdvbanskjdlvbiuwjovbwnep9qovbweiupdjk
+
+
+
+% \bibliographystyle{alpha}
+% \bibliography{bibs/sample}
+
+\end{document}
