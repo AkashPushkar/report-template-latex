@@ -9,3 +9,6 @@ https://www.tablesgenerator.com/#
 
 GUI-based tex code for matrix:
 https://jasonwarta.com/latex.html
+
+GUI-based tex code for figures(tikz):
+https://www.mathcha.io/editor
